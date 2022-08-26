@@ -1,2 +1,1 @@
-require("blake.remap")
-require("blake.set")
+require("blake")
