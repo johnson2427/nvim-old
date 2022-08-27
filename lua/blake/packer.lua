@@ -44,6 +44,9 @@ return require("packer").startup(function()
     use("rcarriga/nvim-dap-ui")
     use("theHamsta/nvim-dap-virtual-text")
 
+    -- Linting
+    use("jose-elias-alvarez/null-ls.nvim")
+
 	--[[
     --
 	-- Lazy loading:

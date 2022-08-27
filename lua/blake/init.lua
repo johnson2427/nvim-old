@@ -3,6 +3,7 @@ require("blake.packer")
 require("blake.neogit")
 require("blake.debugger")
 require("blake.rtp")
+require("blake.null-ls")
 
 local augroup = vim.api.nvim_create_augroup
 blakeGroup = augroup("blake", {})
